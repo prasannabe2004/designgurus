@@ -19,11 +19,11 @@
         {
             "label": "compile and run",
             "type": "shell",
-            "command": "g++ -std=c++17 -o ${fileBasenameNoExtension} ${file} && ./${fileBasenameNoExtension} > output.txt",
+            "command": "clang-format -i ${file}; g++ -std=c++17 -o ${fileBasenameNoExtension} ${file} && ./${fileBasenameNoExtension} > output.txt",
             "group": {
                 "kind": "build",
                 "isDefault": true
-            }
+            },
         }
     ]
 }
