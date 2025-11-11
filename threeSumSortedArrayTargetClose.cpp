@@ -1,11 +1,24 @@
 /*
-Given an array of unsorted numbers and a target number,
-find a triplet in the array whose sum is as close to the target number
-as possible, return the sum of the triplet.
-
-If there are more than one such triplet, return the sum of the triplet
-with the smallest sum.
-*/
+ * Three Sum Closest to Target
+ * 
+ * Problem:
+ * Given an array of unsorted numbers and a target number, find a triplet 
+ * in the array whose sum is as close to the target number as possible, 
+ * return the sum of the triplet.
+ * 
+ * Task:
+ * If there are more than one such triplet, return the sum of the triplet 
+ * with the smallest sum.
+ * 
+ * Example:
+ * Input: [-2, 0, 1, 2], target = 2
+ * Output: 1
+ * Explanation: Triplet [-2, 1, 2] has sum 1, which is closest to target 2
+ * 
+ * Input: [-3, -1, 1, 2], target = 1
+ * Output: 0
+ * Explanation: Triplet [-3, 1, 2] has sum 0, which is closest to target 1
+ */
 
 #include <iostream>
 #include <vector>

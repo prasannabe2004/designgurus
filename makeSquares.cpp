@@ -1,8 +1,19 @@
 /*
-Given an array of numbers sorted in ascending order and a target sum, find a pair in the array whose sum is equal to the given target.
-
-Write a function to return the indices of the two numbers (i.e. the pair) such that they add up to the given target. If no such pair exists return [-1, -1].
-*/
+ * Squares of a Sorted Array
+ * 
+ * Problem:
+ * Given a sorted array, create a new array containing squares of all the numbers 
+ * of the input array in the sorted order.
+ * 
+ * Example:
+ * Input: [-2, -1, 0, 2, 3]
+ * Output: [0, 1, 4, 4, 9]
+ * Explanation: Squares are [4, 1, 0, 4, 9], sorted order is [0, 1, 4, 4, 9]
+ * 
+ * Input: [-3, -1, 0, 1, 2]
+ * Output: [0, 1, 1, 4, 9]
+ * Explanation: Squares are [9, 1, 0, 1, 4], sorted order is [0, 1, 1, 4, 9]
+ */
 
 #include <iostream>
 #include <vector>
